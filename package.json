@@ -1,0 +1,25 @@
+{
+  "name": "diana-torres-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive, multilingual portfolio for Diana Torres.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch server/src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server/src/index.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

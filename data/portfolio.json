@@ -1,0 +1,641 @@
+{
+  "en": {
+    "locale": "en",
+    "ui": {
+      "skip": "Skip to content",
+      "navStory": "Story",
+      "navWork": "Selected work",
+      "navJourney": "Journey",
+      "navAbout": "About",
+      "contact": "Say hello",
+      "openToExplore": "Open to creative conversations",
+      "heroEyebrow": "A curious mind in motion",
+      "heroTitle": "I make complex things feel clear — and leave room for wonder.",
+      "heroBody": "I'm Diana, a software engineer with 5+ years in quality and performance. I'm now exploring creative product roles where analytical thinking and visual curiosity can work together.",
+      "heroPrimary": "Explore my work",
+      "heroSecondary": "Get to know me",
+      "portraitAlt": "Portrait of Diana Torres",
+      "heroNote": "From reliable systems to thoughtful experiences",
+      "statYears": "years building with care",
+      "statLanguages": "languages, one point of view",
+      "statNext": "next chapter in discovery",
+      "workEyebrow": "Selected work",
+      "workTitle": "A few threads from the story so far.",
+      "workIntro": "Engineering, research and experiments — with the decisions and learning made visible.",
+      "filterAll": "All work",
+      "filterEngineering": "Engineering",
+      "filterResearch": "Research",
+      "filterExploration": "Exploring",
+      "viewCase": "Open the case",
+      "caseChallenge": "The question",
+      "caseApproach": "What I did",
+      "caseOutcome": "What changed / learned",
+      "close": "Close",
+      "journeyEyebrow": "The journey",
+      "journeyTitle": "A path with a few beautiful turns.",
+      "journeyIntro": "My engineering years taught me how to understand systems, ask better questions and make quality a shared practice. Draw My Future is helping me discover where I want to take those strengths next.",
+      "storyOrigin": "Cali, Colombia",
+      "storyCurrent": "Paris, France",
+      "storyRoute": "A journey across places, teams and ways of seeing.",
+      "experienceLabel": "Experience",
+      "experienceHint": "Open a chapter to see what I carried forward.",
+      "focusEyebrow": "In progress",
+      "focusTitle": "The next chapter is still taking shape.",
+      "focusBody": "Through Draw My Future, I'm testing ideas across product design, UX and creative development. These are open questions — the projects will grow as I learn.",
+      "focusTag1": "Product thinking",
+      "focusTag2": "Visual exploration",
+      "focusTag3": "Creative coding",
+      "aboutEyebrow": "Beyond the job title",
+      "aboutTitle": "I notice patterns everywhere.",
+      "aboutIntro": "A little rhythm, a little color, a little friendly competition. The things I love outside work shape how I create inside it.",
+      "languagesTitle": "Languages",
+      "hobbiesTitle": "Small sources of inspiration",
+      "contactEyebrow": "Keep the conversation going",
+      "contactTitle": "Have a good question or an interesting challenge?",
+      "contactBody": "I'm open to thoughtful conversations about creative product roles, design and the space between people and technology.",
+      "emailCta": "Write me an email",
+      "linkedinCta": "Find me on LinkedIn",
+      "footerNote": "Made with care, curiosity and a little movement.",
+      "categoryEngineering": "Engineering",
+      "categoryResearch": "Research",
+      "categoryExploration": "Exploration",
+      "statusPast": "Past project",
+      "statusNow": "Building now",
+      "statusExploring": "Exploration",
+      "readMore": "Read the story"
+    },
+    "profile": {
+      "name": "Diana Torres",
+      "title": "Software engineer · creative explorer",
+      "location": "Paris, France",
+      "email": "dianatorresrojas4@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/dianaitr/"
+    },
+    "projects": [
+      {
+        "id": "aviom-forecasting",
+        "title": "Making bus journeys easier to predict",
+        "category": "research",
+        "year": "Engineering capstone",
+        "status": "past",
+        "visual": "route",
+        "summary": "A neural-network forecasting model explored how historical route patterns could help estimate travel time between stops in Cali's MIO bus network.",
+        "challenge": "Metro Cali operators needed a clearer view of how long buses would take to reach upcoming stops, using large volumes of operational data.",
+        "approach": "Analyzed and prepared transport data as time series, explored route patterns, and developed a neural-network model as part of the AVIOM research project.",
+        "outcome": "Created a documented first model for estimating inter-stop travel times and a foundation for future iterations with additional real-world factors.",
+        "tags": ["Python", "Data analysis", "Neural networks", "Time series"]
+      },
+      {
+        "id": "transunion-banking",
+        "title": "A smoother path through mobile banking",
+        "category": "engineering",
+        "year": "TransUnion · 2023",
+        "status": "past",
+        "visual": "bank",
+        "summary": "Helped bring existing web capabilities into a new mobile banking experience, including recurring payments and external service integrations.",
+        "challenge": "The team needed to carry important web journeys into a new mobile product while keeping transactions reliable across connected services.",
+        "approach": "Developed Java modules for recurring payments, integrated REST APIs, and contributed automated checks, delivery pipelines and technical documentation.",
+        "outcome": "Supported a more consistent feature set across web and mobile and made critical changes easier to validate before release.",
+        "tags": ["Java", "REST APIs", "PostgreSQL", "CI/CD"]
+      },
+      {
+        "id": "engie-automation",
+        "title": "Automation that travels across devices",
+        "category": "engineering",
+        "year": "ENGIE · 2023–2025",
+        "status": "past",
+        "visual": "mobile",
+        "summary": "Created reusable foundations for web and mobile test automation across several internal and customer-facing products.",
+        "challenge": "Several teams needed repeatable ways to validate different applications and devices without slowing down delivery.",
+        "approach": "Built a Java automation template with Selenium and Appium, data-driven scenarios, clear reports and GitLab CI/CD; helped support containerized Android execution.",
+        "outcome": "Gave teams a shared starting point for regression checks and made results easier to review across projects.",
+        "tags": ["Java", "Selenium", "Appium", "GitLab CI/CD", "Docker"]
+      },
+      {
+        "id": "performance-observability",
+        "title": "Seeing performance before release",
+        "category": "engineering",
+        "year": "Seine-Saint-Denis · 2025–2026",
+        "status": "past",
+        "visual": "performance",
+        "summary": "Designed performance scenarios and monitoring views to compare an application before and after a major platform change.",
+        "challenge": "A critical public-service application needed evidence that a modernized technical foundation would remain stable under realistic demand.",
+        "approach": "Prepared representative load scenarios, automated functional checks, and used JMeter, Elastic APM, Grafana and InfluxDB to inspect results.",
+        "outcome": "Helped teams spot bottlenecks, compare releases and turn performance observations into actionable recommendations.",
+        "tags": ["JMeter", "Java", "Grafana", "Elastic APM", "Performance"]
+      },
+      {
+        "id": "portfolio-in-motion",
+        "title": "A portfolio in motion",
+        "category": "exploration",
+        "year": "Building now",
+        "status": "now",
+        "visual": "portfolio",
+        "summary": "This portfolio is the first ongoing experiment: a welcoming place to connect technical work, personal references and an evolving creative direction.",
+        "challenge": "How might a career transition feel honest and inviting while still making years of engineering experience easy to understand?",
+        "approach": "Combining a story-led page, real project cases, a three-language switch and a modular content model that can grow with future work.",
+        "outcome": "A living prototype. New work and a clearer creative focus will be added as the Draw My Future journey unfolds.",
+        "tags": ["Storytelling", "Interaction", "JavaScript", "Node.js"]
+      }
+    ],
+    "experience": [
+      {
+        "id": "seine-saint-denis",
+        "date": "2025–2026",
+        "role": "Performance Engineer",
+        "company": "Conseil départemental de la Seine-Saint-Denis",
+        "summary": "Performance strategy, load scenarios and observability for a critical public-service application.",
+        "learning": "I learned to turn technical signals into a story teams can act on — and to make invisible system behavior easier to see.",
+        "tools": ["JMeter", "Java", "Elastic APM", "Grafana", "InfluxDB"]
+      },
+      {
+        "id": "engie",
+        "date": "2023–2025",
+        "role": "QA Automation Engineer",
+        "company": "ENGIE · Leanovia",
+        "summary": "Reusable web and mobile automation, test reporting and CI/CD across multiple digital products.",
+        "learning": "I learned that a good system helps many people move faster, with less uncertainty and clearer feedback.",
+        "tools": ["Java", "Selenium", "Appium", "GitLab CI/CD", "Docker", "Kubernetes"]
+      },
+      {
+        "id": "transunion",
+        "date": "2023",
+        "role": "Middle Developer",
+        "company": "TransUnion",
+        "summary": "Recurring-payment features, REST integrations and engineering support for a mobile banking product.",
+        "learning": "I enjoyed moving closer to product behavior: how a feature connects, what a customer experiences, and what the team needs to trust it.",
+        "tools": ["Java", "REST APIs", "PostgreSQL", "GitLab CI/CD"]
+      },
+      {
+        "id": "early-career",
+        "date": "2021–2022",
+        "role": "QA Analyst & Automation Engineer",
+        "company": "Intevo · TransUnion · Assura · Covéa",
+        "summary": "Built foundations in mobile and web testing, test strategy, exploratory analysis and team collaboration.",
+        "learning": "I learned to look at a product through both its edge cases and the people who depend on it.",
+        "tools": ["Java", "Appium", "Selenium", "Jira", "Postman"]
+      }
+    ],
+    "explorations": [
+      {
+        "number": "01",
+        "title": "What makes a product feel intuitive?",
+        "text": "A small UX study about the moments that help someone feel oriented, capable and confident.",
+        "label": "Question to explore"
+      },
+      {
+        "number": "02",
+        "title": "Can data tell a softer story?",
+        "text": "An experiment turning a pattern or dataset into a small visual, human-scale narrative.",
+        "label": "Future experiment"
+      },
+      {
+        "number": "03",
+        "title": "A digital sketchbook",
+        "text": "A home for quick interactions, color studies and ideas that deserve a first prototype.",
+        "label": "In discovery"
+      }
+    ],
+    "skills": [
+      { "title": "Understand", "items": ["Requirements", "User journeys", "Risk analysis", "Performance questions"] },
+      { "title": "Make", "items": ["Java", "JavaScript", "Python", "SQL", "REST APIs"] },
+      { "title": "Connect", "items": ["Automation", "CI/CD", "Observability", "Agile collaboration"] }
+    ],
+    "hobbies": [
+      { "name": "Ballet", "note": "Rhythm, detail and the beauty of a transition." },
+      { "name": "Monet & color", "note": "Light changes everything; observation is a creative skill." },
+      { "name": "Tennis", "note": "Read the pattern, choose the moment, stay curious." }
+    ],
+    "languages": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "French", "level": "Fluent" },
+      { "name": "English", "level": "Fluent" }
+    ]
+  },
+  "fr": {
+    "locale": "fr",
+    "ui": {
+      "skip": "Aller au contenu",
+      "navStory": "Histoire",
+      "navWork": "Projets choisis",
+      "navJourney": "Parcours",
+      "navAbout": "À propos",
+      "contact": "Me contacter",
+      "openToExplore": "Ouverte aux échanges créatifs",
+      "heroEyebrow": "Un esprit curieux en mouvement",
+      "heroTitle": "Je rends les choses complexes plus claires — en gardant une place pour l'émerveillement.",
+      "heroBody": "Je suis Diana, ingénieure logicielle avec plus de 5 ans d'expérience en qualité et performance. J'explore aujourd'hui des rôles créatifs dans le produit, où l'analyse et la curiosité visuelle se rencontrent.",
+      "heroPrimary": "Découvrir mes projets",
+      "heroSecondary": "Faire connaissance",
+      "portraitAlt": "Portrait de Diana Torres",
+      "heroNote": "Des systèmes fiables aux expériences pensées avec soin",
+      "statYears": "ans à construire avec soin",
+      "statLanguages": "langues, un regard singulier",
+      "statNext": "prochain chapitre à découvrir",
+      "workEyebrow": "Projets choisis",
+      "workTitle": "Quelques fils de mon histoire jusqu'ici.",
+      "workIntro": "Ingénierie, recherche et expérimentations — avec les décisions et apprentissages rendus visibles.",
+      "filterAll": "Tout",
+      "filterEngineering": "Ingénierie",
+      "filterResearch": "Recherche",
+      "filterExploration": "Exploration",
+      "viewCase": "Ouvrir le projet",
+      "caseChallenge": "La question",
+      "caseApproach": "Ma démarche",
+      "caseOutcome": "Résultat / apprentissage",
+      "close": "Fermer",
+      "journeyEyebrow": "Le parcours",
+      "journeyTitle": "Un chemin avec de jolis détours.",
+      "journeyIntro": "Mes années en ingénierie m'ont appris à comprendre les systèmes, poser de meilleures questions et faire de la qualité une pratique collective. Draw My Future m'aide à découvrir où emmener ces forces ensuite.",
+      "storyOrigin": "Cali, Colombie",
+      "storyCurrent": "Paris, France",
+      "storyRoute": "Un voyage entre lieux, équipes et façons de voir.",
+      "experienceLabel": "Expérience",
+      "experienceHint": "Ouvrez un chapitre pour voir ce que j'en retiens.",
+      "focusEyebrow": "En cours",
+      "focusTitle": "Le prochain chapitre prend forme.",
+      "focusBody": "Avec Draw My Future, j'explore le design produit, l'UX et le développement créatif. Ce sont encore des pistes — les projets évolueront avec mes découvertes.",
+      "focusTag1": "Vision produit",
+      "focusTag2": "Exploration visuelle",
+      "focusTag3": "Code créatif",
+      "aboutEyebrow": "Au-delà du titre",
+      "aboutTitle": "Je repère des motifs partout.",
+      "aboutIntro": "Un peu de rythme, un peu de couleur, un peu de compétition amicale. Ce que j'aime en dehors du travail nourrit ma façon de créer.",
+      "languagesTitle": "Langues",
+      "hobbiesTitle": "Mes petites sources d'inspiration",
+      "contactEyebrow": "Poursuivons la conversation",
+      "contactTitle": "Une bonne question ou un défi intéressant ?",
+      "contactBody": "Je suis ouverte aux échanges autour des rôles créatifs dans le produit, du design et du lien entre les personnes et la technologie.",
+      "emailCta": "M'écrire un email",
+      "linkedinCta": "Me retrouver sur LinkedIn",
+      "footerNote": "Créé avec soin, curiosité et un peu de mouvement.",
+      "categoryEngineering": "Ingénierie",
+      "categoryResearch": "Recherche",
+      "categoryExploration": "Exploration",
+      "statusPast": "Projet passé",
+      "statusNow": "En création",
+      "statusExploring": "Exploration",
+      "readMore": "Lire l'histoire"
+    },
+    "profile": {
+      "name": "Diana Torres",
+      "title": "Ingénieure logicielle · exploratrice créative",
+      "location": "Paris, France",
+      "email": "dianatorresrojas4@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/dianaitr/"
+    },
+    "projects": [
+      {
+        "id": "aviom-forecasting",
+        "title": "Mieux anticiper les trajets en bus",
+        "category": "research",
+        "year": "Projet de fin d'études",
+        "status": "past",
+        "visual": "route",
+        "summary": "Un modèle de prévision par réseau neuronal explore comment les historiques de trajets peuvent estimer le temps entre les arrêts du réseau de bus MIO à Cali.",
+        "challenge": "Les opérateurs de Metro Cali avaient besoin de mieux anticiper l'arrivée des bus aux prochains arrêts à partir de grandes quantités de données opérationnelles.",
+        "approach": "Analyse et préparation des données de transport en séries temporelles, exploration des itinéraires et développement d'un modèle neuronal dans le cadre du projet de recherche AVIOM.",
+        "outcome": "Un premier modèle documenté pour estimer les temps de trajet entre arrêts et une base pour de futures itérations intégrant d'autres facteurs réels.",
+        "tags": ["Python", "Analyse de données", "Réseaux neuronaux", "Séries temporelles"]
+      },
+      {
+        "id": "transunion-banking",
+        "title": "Fluidifier le parcours bancaire mobile",
+        "category": "engineering",
+        "year": "TransUnion · 2023",
+        "status": "past",
+        "visual": "bank",
+        "summary": "Contribution au transfert de fonctionnalités web vers une nouvelle expérience bancaire mobile, dont les paiements récurrents et les intégrations de services externes.",
+        "challenge": "L'équipe devait reprendre les parcours web essentiels dans une nouvelle application mobile tout en fiabilisant les transactions entre services connectés.",
+        "approach": "Développement de modules Java pour les paiements récurrents, intégration d'API REST et contribution aux tests automatisés, pipelines et documentation technique.",
+        "outcome": "Un ensemble de fonctionnalités plus cohérent entre web et mobile, plus facile à valider avant livraison.",
+        "tags": ["Java", "API REST", "PostgreSQL", "CI/CD"]
+      },
+      {
+        "id": "engie-automation",
+        "title": "Une automatisation qui suit les appareils",
+        "category": "engineering",
+        "year": "ENGIE · 2023–2025",
+        "status": "past",
+        "visual": "mobile",
+        "summary": "Création de bases réutilisables pour l'automatisation des tests web et mobile de plusieurs produits internes et clients.",
+        "challenge": "Plusieurs équipes avaient besoin de moyens reproductibles pour valider différentes applications et appareils sans ralentir les livraisons.",
+        "approach": "Création d'un modèle Java avec Selenium et Appium, scénarios pilotés par les données, rapports clairs et CI/CD GitLab ; contribution à l'exécution Android conteneurisée.",
+        "outcome": "Un point de départ partagé pour les tests de régression et des résultats plus simples à analyser entre projets.",
+        "tags": ["Java", "Selenium", "Appium", "GitLab CI/CD", "Docker"]
+      },
+      {
+        "id": "performance-observability",
+        "title": "Voir les performances avant livraison",
+        "category": "engineering",
+        "year": "Seine-Saint-Denis · 2025–2026",
+        "status": "past",
+        "visual": "performance",
+        "summary": "Conception de scénarios de charge et de vues de supervision pour comparer une application avant et après une évolution majeure de sa plateforme.",
+        "challenge": "Une application essentielle au service public devait prouver la stabilité de sa nouvelle base technique sous une charge réaliste.",
+        "approach": "Préparation de scénarios représentatifs, automatisation de contrôles fonctionnels, puis analyse avec JMeter, Elastic APM, Grafana et InfluxDB.",
+        "outcome": "Les équipes ont pu repérer les points de blocage, comparer les versions et transformer les observations en recommandations concrètes.",
+        "tags": ["JMeter", "Java", "Grafana", "Elastic APM", "Performance"]
+      },
+      {
+        "id": "portfolio-in-motion",
+        "title": "Un portfolio en mouvement",
+        "category": "exploration",
+        "year": "En création",
+        "status": "now",
+        "visual": "portfolio",
+        "summary": "Ce portfolio est la première expérimentation en cours : relier les projets techniques, les références personnelles et une direction créative en évolution.",
+        "challenge": "Comment raconter une reconversion avec sincérité tout en rendant cinq années d'expérience en ingénierie faciles à comprendre ?",
+        "approach": "Une page narrative, de vrais cas projets, une interface en trois langues et un modèle de contenu qui pourra grandir avec les futures expériences.",
+        "outcome": "Un prototype vivant. Les prochains travaux et une orientation créative plus nette s'ajouteront au fil du programme Draw My Future.",
+        "tags": ["Storytelling", "Interaction", "JavaScript", "Node.js"]
+      }
+    ],
+    "experience": [
+      {
+        "id": "seine-saint-denis",
+        "date": "2025–2026",
+        "role": "Ingénieure performance",
+        "company": "Conseil départemental de la Seine-Saint-Denis",
+        "summary": "Stratégie de performance, scénarios de charge et observabilité pour une application essentielle au service public.",
+        "learning": "J'ai appris à transformer les signaux techniques en récits utiles aux équipes, et à rendre visibles les comportements invisibles d'un système.",
+        "tools": ["JMeter", "Java", "Elastic APM", "Grafana", "InfluxDB"]
+      },
+      {
+        "id": "engie",
+        "date": "2023–2025",
+        "role": "Ingénieure QA automatisation",
+        "company": "ENGIE · Leanovia",
+        "summary": "Automatisation web et mobile réutilisable, reporting des tests et CI/CD sur plusieurs produits numériques.",
+        "learning": "J'ai vu qu'un bon système aide plusieurs personnes à avancer plus vite, avec moins d'incertitude et des retours plus clairs.",
+        "tools": ["Java", "Selenium", "Appium", "GitLab CI/CD", "Docker", "Kubernetes"]
+      },
+      {
+        "id": "transunion",
+        "date": "2023",
+        "role": "Développeuse middle",
+        "company": "TransUnion",
+        "summary": "Fonctionnalités de paiements récurrents, intégrations REST et accompagnement d'un produit bancaire mobile.",
+        "learning": "J'ai aimé me rapprocher du comportement produit : les liens entre fonctionnalités, l'expérience client et ce qui aide une équipe à faire confiance à son code.",
+        "tools": ["Java", "API REST", "PostgreSQL", "GitLab CI/CD"]
+      },
+      {
+        "id": "early-career",
+        "date": "2021–2022",
+        "role": "QA analyste & ingénieure automatisation",
+        "company": "Intevo · TransUnion · Assura · Covéa",
+        "summary": "Premières expériences en tests mobile et web, stratégie de test, analyse exploratoire et collaboration d'équipe.",
+        "learning": "J'ai appris à regarder un produit à travers ses cas limites et les personnes qui en dépendent.",
+        "tools": ["Java", "Appium", "Selenium", "Jira", "Postman"]
+      }
+    ],
+    "explorations": [
+      {
+        "number": "01",
+        "title": "Qu'est-ce qui rend un produit intuitif ?",
+        "text": "Une petite étude UX sur les moments qui aident une personne à se sentir orientée, capable et en confiance.",
+        "label": "Question à explorer"
+      },
+      {
+        "number": "02",
+        "title": "Les données peuvent-elles raconter avec douceur ?",
+        "text": "Une expérimentation qui transforme un motif ou des données en petit récit visuel à échelle humaine.",
+        "label": "Future expérience"
+      },
+      {
+        "number": "03",
+        "title": "Un carnet de croquis numérique",
+        "text": "Un espace pour de courtes interactions, des études de couleurs et les idées qui méritent un premier prototype.",
+        "label": "En découverte"
+      }
+    ],
+    "skills": [
+      { "title": "Comprendre", "items": ["Besoins", "Parcours utilisateurs", "Analyse des risques", "Performance"] },
+      { "title": "Créer", "items": ["Java", "JavaScript", "Python", "SQL", "API REST"] },
+      { "title": "Relier", "items": ["Automatisation", "CI/CD", "Observabilité", "Agilité"] }
+    ],
+    "hobbies": [
+      { "name": "Ballet", "note": "Rythme, détail et beauté des transitions." },
+      { "name": "Monet & les couleurs", "note": "La lumière change tout ; observer est un geste créatif." },
+      { "name": "Tennis", "note": "Lire le jeu, choisir le moment, rester curieuse." }
+    ],
+    "languages": [
+      { "name": "Espagnol", "level": "Langue maternelle" },
+      { "name": "Français", "level": "Courant" },
+      { "name": "Anglais", "level": "Courant" }
+    ]
+  },
+  "es": {
+    "locale": "es",
+    "ui": {
+      "skip": "Saltar al contenido",
+      "navStory": "Historia",
+      "navWork": "Proyectos elegidos",
+      "navJourney": "Trayectoria",
+      "navAbout": "Sobre mí",
+      "contact": "Hablemos",
+      "openToExplore": "Abierta a conversaciones creativas",
+      "heroEyebrow": "Una mente curiosa en movimiento",
+      "heroTitle": "Hago que lo complejo sea más claro — y dejo espacio para el asombro.",
+      "heroBody": "Soy Diana, ingeniera de software con más de 5 años de experiencia en calidad y rendimiento. Ahora exploro roles creativos en producto donde el pensamiento analítico y la curiosidad visual puedan encontrarse.",
+      "heroPrimary": "Ver mis proyectos",
+      "heroSecondary": "Conocerme mejor",
+      "portraitAlt": "Retrato de Diana Torres",
+      "heroNote": "De sistemas confiables a experiencias cuidadas",
+      "statYears": "años construyendo con cuidado",
+      "statLanguages": "idiomas, una mirada propia",
+      "statNext": "próximo capítulo por descubrir",
+      "workEyebrow": "Proyectos elegidos",
+      "workTitle": "Algunos hilos de mi historia hasta ahora.",
+      "workIntro": "Ingeniería, investigación y experimentos — mostrando las decisiones y los aprendizajes.",
+      "filterAll": "Todos",
+      "filterEngineering": "Ingeniería",
+      "filterResearch": "Investigación",
+      "filterExploration": "Exploración",
+      "viewCase": "Abrir el caso",
+      "caseChallenge": "La pregunta",
+      "caseApproach": "Qué hice",
+      "caseOutcome": "Qué cambió / aprendí",
+      "close": "Cerrar",
+      "journeyEyebrow": "La trayectoria",
+      "journeyTitle": "Un camino con algunos giros bonitos.",
+      "journeyIntro": "Mis años en ingeniería me enseñaron a entender sistemas, hacer mejores preguntas y compartir la calidad con los equipos. Draw My Future me ayuda a descubrir hacia dónde llevar esas fortalezas.",
+      "storyOrigin": "Cali, Colombia",
+      "storyCurrent": "París, Francia",
+      "storyRoute": "Un viaje entre lugares, equipos y formas de mirar.",
+      "experienceLabel": "Experiencia",
+      "experienceHint": "Abre un capítulo para ver qué me llevo.",
+      "focusEyebrow": "En proceso",
+      "focusTitle": "El próximo capítulo todavía está tomando forma.",
+      "focusBody": "Con Draw My Future, estoy probando ideas en diseño de producto, UX y desarrollo creativo. Son preguntas abiertas: los proyectos crecerán a medida que aprenda.",
+      "focusTag1": "Pensamiento de producto",
+      "focusTag2": "Exploración visual",
+      "focusTag3": "Código creativo",
+      "aboutEyebrow": "Más allá del cargo",
+      "aboutTitle": "Encuentro patrones en todas partes.",
+      "aboutIntro": "Un poco de ritmo, un poco de color y una competencia amistosa. Lo que me gusta fuera del trabajo también influye en cómo creo.",
+      "languagesTitle": "Idiomas",
+      "hobbiesTitle": "Pequeñas fuentes de inspiración",
+      "contactEyebrow": "Sigamos conversando",
+      "contactTitle": "¿Una buena pregunta o un reto interesante?",
+      "contactBody": "Estoy abierta a conversaciones sobre roles creativos en producto, diseño y el espacio entre las personas y la tecnología.",
+      "emailCta": "Escríbeme un correo",
+      "linkedinCta": "Encuéntrame en LinkedIn",
+      "footerNote": "Hecho con cuidado, curiosidad y un poco de movimiento.",
+      "categoryEngineering": "Ingeniería",
+      "categoryResearch": "Investigación",
+      "categoryExploration": "Exploración",
+      "statusPast": "Proyecto anterior",
+      "statusNow": "En construcción",
+      "statusExploring": "Exploración",
+      "readMore": "Leer la historia"
+    },
+    "profile": {
+      "name": "Diana Torres",
+      "title": "Ingeniera de software · exploradora creativa",
+      "location": "París, Francia",
+      "email": "dianatorresrojas4@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/dianaitr/"
+    },
+    "projects": [
+      {
+        "id": "aviom-forecasting",
+        "title": "Predecir mejor los trayectos en bus",
+        "category": "research",
+        "year": "Proyecto de grado",
+        "status": "past",
+        "visual": "route",
+        "summary": "Un modelo de predicción con redes neuronales exploró cómo los recorridos históricos podían estimar el tiempo entre paradas de los buses MIO de Cali.",
+        "challenge": "Los operadores de Metro Cali necesitaban anticipar mejor la llegada de los buses a las siguientes paradas usando grandes volúmenes de datos operativos.",
+        "approach": "Análisis y preparación de datos de transporte como series temporales, exploración de rutas y desarrollo de un modelo neuronal en el proyecto de investigación AVIOM.",
+        "outcome": "Un primer modelo documentado para estimar tiempos entre paradas y una base para futuras iteraciones con más factores reales.",
+        "tags": ["Python", "Análisis de datos", "Redes neuronales", "Series temporales"]
+      },
+      {
+        "id": "transunion-banking",
+        "title": "Un recorrido más fluido en banca móvil",
+        "category": "engineering",
+        "year": "TransUnion · 2023",
+        "status": "past",
+        "visual": "bank",
+        "summary": "Contribuí a llevar funcionalidades web a una nueva experiencia de banca móvil, incluidos los pagos recurrentes y la integración con servicios externos.",
+        "challenge": "El equipo necesitaba trasladar recorridos web importantes a una nueva app móvil y mantener confiables las transacciones entre servicios conectados.",
+        "approach": "Desarrollé módulos Java para pagos recurrentes, integré API REST y contribuí a pruebas automatizadas, pipelines y documentación técnica.",
+        "outcome": "Apoyé un conjunto de funciones más coherente entre web y móvil, más fácil de validar antes de cada entrega.",
+        "tags": ["Java", "API REST", "PostgreSQL", "CI/CD"]
+      },
+      {
+        "id": "engie-automation",
+        "title": "Automatización para varios dispositivos",
+        "category": "engineering",
+        "year": "ENGIE · 2023–2025",
+        "status": "past",
+        "visual": "mobile",
+        "summary": "Creé bases reutilizables para automatizar pruebas web y móviles en varios productos internos y para clientes.",
+        "challenge": "Varios equipos necesitaban validar distintas aplicaciones y dispositivos de manera repetible sin ralentizar las entregas.",
+        "approach": "Desarrollé una plantilla Java con Selenium y Appium, escenarios basados en datos, informes claros y CI/CD en GitLab; apoyé la ejecución Android en contenedores.",
+        "outcome": "Un punto de partida compartido para pruebas de regresión y resultados más fáciles de revisar entre proyectos.",
+        "tags": ["Java", "Selenium", "Appium", "GitLab CI/CD", "Docker"]
+      },
+      {
+        "id": "performance-observability",
+        "title": "Ver el rendimiento antes de publicar",
+        "category": "engineering",
+        "year": "Seine-Saint-Denis · 2025–2026",
+        "status": "past",
+        "visual": "performance",
+        "summary": "Diseñé escenarios de carga y vistas de monitoreo para comparar una aplicación antes y después de un cambio importante en su plataforma.",
+        "challenge": "Una aplicación clave de servicio público necesitaba demostrar que su base técnica modernizada seguiría estable con una demanda realista.",
+        "approach": "Preparé escenarios representativos, automatizaciones funcionales y analicé los resultados con JMeter, Elastic APM, Grafana e InfluxDB.",
+        "outcome": "Ayudé a detectar cuellos de botella, comparar versiones y convertir observaciones en recomendaciones prácticas.",
+        "tags": ["JMeter", "Java", "Grafana", "Elastic APM", "Performance"]
+      },
+      {
+        "id": "portfolio-in-motion",
+        "title": "Un portfolio en movimiento",
+        "category": "exploration",
+        "year": "En construcción",
+        "status": "now",
+        "visual": "portfolio",
+        "summary": "Este portfolio es el primer experimento en curso: conectar proyectos técnicos, referencias personales y una dirección creativa que evoluciona.",
+        "challenge": "¿Cómo contar una transición profesional con honestidad y, al mismo tiempo, hacer fácil entender cinco años de experiencia en ingeniería?",
+        "approach": "Una página narrativa, casos reales, contenido en tres idiomas y una estructura modular que podrá crecer junto a los próximos proyectos.",
+        "outcome": "Un prototipo vivo. Añadiré nuevos trabajos y una dirección creativa más clara a medida que avance Draw My Future.",
+        "tags": ["Storytelling", "Interacción", "JavaScript", "Node.js"]
+      }
+    ],
+    "experience": [
+      {
+        "id": "seine-saint-denis",
+        "date": "2025–2026",
+        "role": "Ingeniera de rendimiento",
+        "company": "Conseil départemental de la Seine-Saint-Denis",
+        "summary": "Estrategia de rendimiento, escenarios de carga y observabilidad para una aplicación clave de servicio público.",
+        "learning": "Aprendí a traducir señales técnicas en historias útiles para los equipos y a hacer visible el comportamiento de un sistema.",
+        "tools": ["JMeter", "Java", "Elastic APM", "Grafana", "InfluxDB"]
+      },
+      {
+        "id": "engie",
+        "date": "2023–2025",
+        "role": "Ingeniera QA de automatización",
+        "company": "ENGIE · Leanovia",
+        "summary": "Automatización web y móvil reutilizable, informes de pruebas y CI/CD en varios productos digitales.",
+        "learning": "Aprendí que un buen sistema ayuda a muchas personas a avanzar más rápido, con menos incertidumbre y mejores señales.",
+        "tools": ["Java", "Selenium", "Appium", "GitLab CI/CD", "Docker", "Kubernetes"]
+      },
+      {
+        "id": "transunion",
+        "date": "2023",
+        "role": "Desarrolladora middle",
+        "company": "TransUnion",
+        "summary": "Funciones de pagos recurrentes, integraciones REST y apoyo de ingeniería para banca móvil.",
+        "learning": "Me gustó acercarme al comportamiento del producto: cómo se conecta una función, qué vive una persona y qué necesita el equipo para confiar.",
+        "tools": ["Java", "API REST", "PostgreSQL", "GitLab CI/CD"]
+      },
+      {
+        "id": "early-career",
+        "date": "2021–2022",
+        "role": "Analista QA e ingeniera de automatización",
+        "company": "Intevo · TransUnion · Assura · Covéa",
+        "summary": "Primeras experiencias en pruebas móviles y web, estrategia de calidad, análisis exploratorio y colaboración en equipo.",
+        "learning": "Aprendí a mirar un producto tanto desde sus casos límite como desde las personas que dependen de él.",
+        "tools": ["Java", "Appium", "Selenium", "Jira", "Postman"]
+      }
+    ],
+    "explorations": [
+      {
+        "number": "01",
+        "title": "¿Qué hace que un producto sea intuitivo?",
+        "text": "Un pequeño estudio UX sobre los momentos que ayudan a sentir orientación, capacidad y confianza.",
+        "label": "Pregunta por explorar"
+      },
+      {
+        "number": "02",
+        "title": "¿Los datos pueden contar historias más cercanas?",
+        "text": "Un experimento para transformar un patrón o conjunto de datos en un relato visual y humano.",
+        "label": "Experimento futuro"
+      },
+      {
+        "number": "03",
+        "title": "Un cuaderno digital de bocetos",
+        "text": "Un espacio para interacciones breves, estudios de color e ideas que merecen un primer prototipo.",
+        "label": "En descubrimiento"
+      }
+    ],
+    "skills": [
+      { "title": "Entender", "items": ["Requisitos", "Recorridos", "Análisis de riesgos", "Rendimiento"] },
+      { "title": "Crear", "items": ["Java", "JavaScript", "Python", "SQL", "API REST"] },
+      { "title": "Conectar", "items": ["Automatización", "CI/CD", "Observabilidad", "Agilidad"] }
+    ],
+    "hobbies": [
+      { "name": "Ballet", "note": "Ritmo, detalle y la belleza de una transición." },
+      { "name": "Monet y el color", "note": "La luz lo cambia todo; observar también es crear." },
+      { "name": "Tenis", "note": "Leer el patrón, elegir el momento, mantener la curiosidad." }
+    ],
+    "languages": [
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Francés", "level": "Fluido" },
+      { "name": "Inglés", "level": "Fluido" }
+    ]
+  }
+}
